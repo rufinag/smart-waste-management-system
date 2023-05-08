@@ -7,3 +7,6 @@ This file contains python code to run compressed/quantized neural network model 
   
 #### video_record.py
 Python code to capture and write video data in real time. This was used to compile the data set used to train the model used in this project. 
+
+#### EAI_final_project_model.ipynb
+This file contains splitting the data into training, validation, and test sets using a stratfied split. It also contains model development and training as well as reducing the size of the model by converting into a TensorFlow Lite model and using post-training quantization. In this file the base model and all the optimized models are also tested on the test dataset.
