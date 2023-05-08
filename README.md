@@ -19,7 +19,7 @@ Python script for extracting frames from videos that we took for data collection
 This file contains all relevant code that we used for data collection and data pre-processing. In summary, it takes in raw jpeg images of bottles (and cans) resizes them to (224, 224, 3), adds labels corresponding to each image and normalizes the images. The images are then concatenated and stored in data.npy and labels are stored in labels.npy (the numpy files can be found in the data folder of this repository). 
 
 ### Data
-For our data collection process, the images we collected for our project can be found here : https://drive.google.com/drive/folders/1EA7D0Gq1P7dKqUwgFPZ7LFWhi-s6jcrH?usp=sharing
+For our data collection process, the images we collected for our project can be found here: https://drive.google.com/drive/folders/1EA7D0Gq1P7dKqUwgFPZ7LFWhi-s6jcrH?usp=sharing
 
 The gdrive folder above contains the 'data.npy' and 'labels.npy' of 2311 images of 4 classes of waste bottles used in this project. The folders 'newimages' and 'ourimages' contain raw jpeg images.
 
